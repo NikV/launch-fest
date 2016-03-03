@@ -969,7 +969,10 @@
 		-webkit-transform: translateY(100vh);
 		-ms-transform: translateY(100vh);
 		transform: translateY(100vh);
-
+		-moz-transition: -moz-transform 0.5s ease;
+		-webkit-transition: -webkit-transform 0.5s ease;
+		-ms-transition: -ms-transform 0.5s ease;
+		transition: transform 0.5s ease;
 		-webkit-overflow-scrolling: touch;
 		background: rgba(36, 38, 41, 0.975);
 		bottom: 4em;
@@ -1575,7 +1578,7 @@
 				margin: 0;
 				position: absolute;
 				z-index: 1;
-				font-size: 18px;
+				font-size: 16px;
 			}
 
 			#main .thumb > p {
